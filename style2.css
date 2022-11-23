@@ -12,6 +12,7 @@
 /* FONTS */
 html {
   background-color: #f5f5f5;
+  overflow-x: hidden;
 }
 
 /* HEADER-WRAPPER */
@@ -159,8 +160,7 @@ main .input_container .container__input button:hover {
   grid-column: 2/3;
   width: 60vw;
   block-size: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   justify-self: center;
   align-self: flex-start;
 }
@@ -179,8 +179,7 @@ main .input_container .container__input button:hover {
 .logos img {
   max-inline-size: 10vw;
   block-size: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   justify-self: center;
   align-self: center;
 }
